@@ -1,0 +1,13 @@
+# conda env create|update --file environment.yml
+name: bike-prototyping
+dependencies:
+  - python
+  - pip
+  - pip:
+      - "--editable=."
+      - jupyter
+      - matplotlib
+      - numpy
+      - pandas
+      - scipy
+      - sklearn

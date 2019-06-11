@@ -1,0 +1,17 @@
+# conda env create|update --file environment.yml
+name: bike-server
+dependencies:
+  - python
+  - pip
+  - pip:
+      - "--editable=."
+      - flake8
+      - flake8-quotes
+      - numpy
+      - pandas
+      - pytest
+      - pytest-mock
+      - scipy
+      - connexion
+      - flask-cors
+      - sklearn

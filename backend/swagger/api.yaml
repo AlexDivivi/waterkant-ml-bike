@@ -1,0 +1,26 @@
+swagger: "2.0"
+schemes: [http, https]
+info:
+  title: Bike API
+  version: "0.1"
+  description: Simple example API to predict Bike Sharing
+
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /:
+    post:
+      operationId: app.get_prediction
+      summary: get prediction
+      parameters:
+        - in: body
+          name: features
+          schema:
+            type: array
+      responses:
+        200:
+          description: Return pred
+          schema:
+            type: integer
