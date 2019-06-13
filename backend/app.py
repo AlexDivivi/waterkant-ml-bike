@@ -1,8 +1,6 @@
 import logging
 from flask_cors import CORS
 import connexion
-from sklearn.linear_model import LinearRegression
-
 
 def get_weather(dtime):
     weather = None # TODO: implement here weather API calls for given dtime
