@@ -4,7 +4,7 @@ dependencies:
   - python
   - pip
   - pip:
-      - "--editable=."
+      - '--editable=.'
       - flake8
       - flake8-quotes
       - numpy
@@ -15,4 +15,4 @@ dependencies:
       - connexion
       - flask-cors
       - sklearn
-      - pytorch
+      - torch

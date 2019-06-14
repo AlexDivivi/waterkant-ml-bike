@@ -2,6 +2,8 @@
 
 ## Setup
 
+Create src directory in prototyping
+
 ```sh
 conda env create --file environment.yml
 conda activate bike-prototyping

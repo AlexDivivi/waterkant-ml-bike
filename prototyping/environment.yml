@@ -4,11 +4,11 @@ dependencies:
   - python
   - pip
   - pip:
-      - "--editable=."
+      - '--editable=.'
       - jupyter
       - matplotlib
       - numpy
       - pandas
       - scipy
       - sklearn
-      - pytorch
+      - torch
